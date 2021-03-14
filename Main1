@@ -1,0 +1,12 @@
+package Zadanie2;
+
+public class Main1
+{
+    public static void main(String[] args)
+    {
+        KlasaA podklasaA = new KlasaA ();
+        System.out.println (podklasaA.message ());
+        KlasaB podklasaB = new KlasaB ();
+        System.out.println (podklasaB.message ());
+    }
+}
