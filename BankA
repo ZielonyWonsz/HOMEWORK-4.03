@@ -1,0 +1,9 @@
+package Zadanie1;
+
+public class BankA extends Bank
+{
+    String getBalance()
+    {
+        return " 150 USD ";
+    }
+}
