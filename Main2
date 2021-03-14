@@ -1,0 +1,18 @@
+package Zadanie1;
+
+public class Main2
+
+{
+    public static void main(String[] args)
+    {
+        BankA bankA = new BankA();
+        BankA.getBalance();
+        BankA.AcountState("Millenium ");
+        BankB bankB = new BankB();
+        BankB.getBalance();
+        BankB.AcountState("PKO ");
+        BankC bankC = new BankC();
+        BankC.getBalance();
+        BankC.AcountState("Alior Bank ");
+    }
+}
