@@ -1,0 +1,6 @@
+package Zadanie2;
+
+abstract class Parent
+{
+    abstract String message();
+}
