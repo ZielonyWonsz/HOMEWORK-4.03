@@ -1,0 +1,10 @@
+package Zadanie1;
+
+abstract class Bank
+{
+    abstract String getBalance();
+    public void AcountState(String Bank)
+    {
+        System.out.println (Bank + "Wartość Konta " + getBalance ());
+    }
+}
