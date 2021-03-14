@@ -1,0 +1,9 @@
+package Zadanie1;
+
+public class KlasaA extends Parent
+{
+    public String message()
+    {
+        return "Pierwsza podklasa ";
+    }
+}
